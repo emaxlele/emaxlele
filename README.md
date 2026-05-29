@@ -8,7 +8,7 @@ _Building enterprise GenAI platforms from the ground up_
 
 [![GitHub](https://img.shields.io/badge/GitHub-emaxlele-181717?style=flat&logo=github)](https://github.com/emaxlele)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0002--4310--8014-A6CE39?style=flat&logo=orcid&logoColor=white)](https://orcid.org/0009-0002-4310-8014)
-[![Location](https://img.shields.io/badge/Location-Cosenza%2C_Italy-blue?style=flat&logo=googlemaps&logoColor=white)](https://github.com/emaxlele)
+[![Location](<https://img.shields.io/badge/Location-Pace_del_Mela_(ME)%2C_Sicily-blue?style=flat&logo=googlemaps&logoColor=white>)](https://github.com/emaxlele)
 
 </div>
 
@@ -164,7 +164,7 @@ Go · Chrome Extensions (MV3) · Native Messaging · SAP (ABAP) · AWS IAM / Sig
 
 <div align="center">
 
-_Cosenza, Italy · Accenture ATC SAP Italy · May 2026_
+_Pace del Mela (ME), Sicily · Accenture ATC SAP Italy · May 2026_
 
 </div>
 ```
