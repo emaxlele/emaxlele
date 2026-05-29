@@ -35,33 +35,47 @@ React 19 · TypeScript 5.9 · Vite 7 · Tailwind CSS 4 · PWA · MSAL (Entra ID)
 **AI / GenAI**
 
 ```
+Microsoft Copilot Studio · Multi-Agent Orchestration
+Azure OpenAI (GPT-5.5, GPT-4.1) · AWS Bedrock (Claude Opus 4.8, Claude Sonnet 4.6)
+Prompt Engineering · MCP (Model Context Protocol)
+```
+
 Microsoft Copilot Studio · Multi-Agent Orchestration · Azure OpenAI (GPT-4.1)
 AWS Bedrock (Claude 3.5 Sonnet/Opus) · Prompt Engineering · MCP (Model Context Protocol)
+
 ```
 
 **Media Processing (Client-Side)**
 
 ```
+
 FFmpeg WASM (multi-thread) · Azure Speech SDK · In-browser video transcription & frame extraction
+
 ```
 
 **Backend & Cloud**
 
 ```
+
 Python (FastAPI · aiohttp · Bot Framework SDK v4) · Node.js · Docker
 Azure Functions · APIM · Static Web Apps · Key Vault · VNET · AI Search · Azure ML · Entra ID
+
 ```
 
 **DevOps**
 
 ```
+
 GitHub Actions · Azure DevOps · func CLI · Docker · ZIP deploy · CI/CD
+
 ```
 
 **Other**
 
 ```
+
 Go · Chrome Extensions (MV3) · Native Messaging · SAP (ABAP) · AWS IAM / SigV4
+
 ```
 
 ---
@@ -142,7 +156,7 @@ Go · Chrome Extensions (MV3) · Native Messaging · SAP (ABAP) · AWS IAM / Sig
 
 ## Education
 
--   🎓 **BSc Computer Engineering** — Università della Calabria
+- 🎓 **Laurea in Informatica (L-8)** — Unimercatorum (Università Telematica Mercatorum)
 -   📚 GenAI in TDLC — Accenture Training Labs (2026)
 -   🔬 ORCID: [0009-0002-4310-8014](https://orcid.org/0009-0002-4310-8014)
 
@@ -153,3 +167,4 @@ Go · Chrome Extensions (MV3) · Native Messaging · SAP (ABAP) · AWS IAM / Sig
 _Cosenza, Italy · Accenture ATC SAP Italy · May 2026_
 
 </div>
+```
