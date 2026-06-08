@@ -18,7 +18,7 @@ _Building enterprise GenAI platforms from the ground up_
 
 I'm a **Packaged App Development Analyst** at Accenture (ATC SAP Italy), specialized in designing and shipping enterprise-grade GenAI platforms end-to-end — from SDK architecture to cloud deployment.
 
-I built **LAICA**, an enterprise multi-agent AI platform serving 36+ active users in production (ENI). The platform spans a custom React SDK (`web-chat-core`), a full PWA frontend, and a multi-agent orchestration layer on Microsoft Copilot Studio, all architected and delivered from scratch.
+I built an **enterprise multi-agent AI platform** serving 36+ active users in production. The platform spans a custom React SDK (`web-chat-core`), a full PWA frontend, and a multi-agent orchestration layer on Microsoft Copilot Studio, all architected and delivered from scratch.
 
 > From intern to de-facto Technical Lead in **16 months**.
 
@@ -36,51 +36,63 @@ React 19 · TypeScript 5.9 · Vite 7 · Tailwind CSS 4 · PWA · MSAL (Entra ID)
 
 ```
 Microsoft Copilot Studio · Multi-Agent Orchestration
-Azure OpenAI (GPT-5.5, GPT-4.1) · AWS Bedrock (Claude Opus 4.8, Claude Sonnet 4.6)
+Azure OpenAI (GPT-4.1) · AWS Bedrock (Claude Opus 4, Claude Sonnet 4)
 Prompt Engineering · MCP (Model Context Protocol)
-```
-
-Microsoft Copilot Studio · Multi-Agent Orchestration · Azure OpenAI (GPT-4.1)
-AWS Bedrock (Claude 3.5 Sonnet/Opus) · Prompt Engineering · MCP (Model Context Protocol)
-
 ```
 
 **Media Processing (Client-Side)**
 
 ```
-
 FFmpeg WASM (multi-thread) · Azure Speech SDK · In-browser video transcription & frame extraction
-
 ```
 
 **Backend & Cloud**
 
 ```
-
 Python (FastAPI · aiohttp · Bot Framework SDK v4) · Node.js · Docker
 Azure Functions · APIM · Static Web Apps · Key Vault · VNET · AI Search · Azure ML · Entra ID
-
 ```
 
 **DevOps**
 
 ```
-
 GitHub Actions · Azure DevOps · func CLI · Docker · ZIP deploy · CI/CD
-
 ```
 
 **Other**
 
 ```
-
 Go · Chrome Extensions (MV3) · Native Messaging · SAP (ABAP) · AWS IAM / SigV4
-
 ```
 
 ---
 
 ## Public Projects
+
+### [PocketBase-VPS-Desktop](https://github.com/emaxlele/PocketBase-VPS-Desktop)
+
+> Desktop app to visually manage a VPS running PocketBase — no terminal needed
+
+-   GUI for atomic frontend deployments, site management, and backup
+-   Wraps [PocketBase-VPS-Toolkit](https://github.com/emaxlele/PocketBase-VPS-Toolkit) via native SSH (no subprocess)
+-   Streaming SSH log output, SFTP upload, Cloudflare cache purge
+-   Config persisted in `%APPDATA%/PocketBase-VPS-Desktop/config.json`
+
+**Stack**: `Go` `React 19` `TypeScript` `Wails v2` `Tailwind CSS v4` `MIT`
+
+---
+
+### [PocketBase-VPS-Toolkit](https://github.com/emaxlele/PocketBase-VPS-Toolkit)
+
+> Opinionated Caddy + PocketBase + SPA stack for Linux VPS — idempotent Go scripts, systemd-native
+
+-   Atomic frontend deploys with symlink switching and versioned releases
+-   `sitectl`, `deploy-frontend`, `backupctl` as composable CLI commands
+-   HTTPS via Caddy with automatic TLS
+
+**Stack**: `Go` `Caddy` `PocketBase` `systemd` `MIT`
+
+---
 
 ### [Edge-Bridge](https://github.com/emaxlele/Edge-Bridge)
 
@@ -122,10 +134,10 @@ Go · Chrome Extensions (MV3) · Native Messaging · SAP (ABAP) · AWS IAM / Sig
 
 | Project                        | Stack                                 | Impact                                   |
 | ------------------------------ | ------------------------------------- | ---------------------------------------- |
-| **LAICA PWA Frontend** v0.0.80 | React 19, Vite 7, TS 5.9, MSAL, PWA   | 36+ users in production (ENI)            |
+| **GenAI Platform PWA** v0.0.80 | React 19, Vite 7, TS 5.9, MSAL, PWA   | 36+ users in production                  |
 | **web-chat-core SDK** v1.6.0   | React 19, FFmpeg WASM, Azure Speech   | 40+ deps, in-browser video transcription |
 | **AI Code Analyzer**           | Python, FastAPI, Docker, LLM, Mermaid | 230 files / 50K LOC auto-analyzed        |
-| **LAICA Platform**             | Copilot Studio, Azure OpenAI, Bedrock | +16% productivity, 20+ AI use cases      |
+| **Multi-Agent AI Platform**    | Copilot Studio, Azure OpenAI, Bedrock | +16% productivity, 20+ AI use cases      |
 | **Azure Functions Middleware** | Azure Functions, APIM, CI/CD, SigV4   | AWS Bedrock bridge, full playbook        |
 | **ZKait Azure SDK Bot**        | Python, Bot Framework SDK v4          | Team's first AI bot                      |
 
@@ -133,14 +145,14 @@ Go · Chrome Extensions (MV3) · Native Messaging · SAP (ABAP) · AWS IAM / Sig
 
 ## Impact Numbers
 
-| Metric                                 | Value                                        |
-| -------------------------------------- | -------------------------------------------- |
-| Productivity improvement (LAICA trial) | **+16%** across 1,239 effort-days            |
-| Coding task time savings               | Up to **79%** (12h → 2.5h)                   |
-| Active users in production             | **36+** (ENI)                                |
-| Enterprise clients served              | **5** (ENI, EPTA, FiberCop, SNAM, Accenture) |
-| AI use cases shipped                   | **20+** across 4 categories                  |
-| SDK dependencies managed               | **40+**                                      |
+| Metric                           | Value                             |
+| -------------------------------- | --------------------------------- |
+| Productivity improvement (trial) | **+16%** across 1,239 effort-days |
+| Coding task time savings         | Up to **79%** (12h → 2.5h)        |
+| Active users in production       | **36+**                           |
+| Enterprise projects shipped      | **5+**                            |
+| AI use cases shipped             | **20+** across 4 categories       |
+| SDK dependencies managed         | **40+**                           |
 
 ---
 
@@ -156,7 +168,7 @@ Go · Chrome Extensions (MV3) · Native Messaging · SAP (ABAP) · AWS IAM / Sig
 
 ## Education
 
-- 🎓 **Laurea in Informatica (L-8)** — Unimercatorum (Università Telematica Mercatorum)
+-   🎓 **Laurea in Informatica (L-8)** — Unimercatorum (Università Telematica Mercatorum)
 -   📚 GenAI in TDLC — Accenture Training Labs (2026)
 -   🔬 ORCID: [0009-0002-4310-8014](https://orcid.org/0009-0002-4310-8014)
 
@@ -164,7 +176,6 @@ Go · Chrome Extensions (MV3) · Native Messaging · SAP (ABAP) · AWS IAM / Sig
 
 <div align="center">
 
-_Pace del Mela (ME), Sicily · Accenture ATC SAP Italy · May 2026_
+_Pace del Mela (ME), Sicily · Accenture ATC SAP Italy · June 2026_
 
 </div>
-```
