@@ -71,7 +71,7 @@ Go · Chrome Extensions (MV3) · Native Messaging · SAP (ABAP) · AWS IAM / Sig
 
 ## Projects
 
-### [M365-Copilot-Extension](https://github.com/emaxlele/M365-Copilot-Extension)
+### M365 Copilot Extension
 
 > Chrome extension (MV3) that supercharges Microsoft 365 Copilot
 
@@ -82,7 +82,7 @@ Go · Chrome Extensions (MV3) · Native Messaging · SAP (ABAP) · AWS IAM / Sig
 -   **Traffic inspector** — intercepts WebSocket/fetch/XHR payloads
 -   6-tab floating panel, keyboard shortcuts, export to Markdown/JSON
 
-**Stack**: `JavaScript` `CSS` `Chrome MV3` `Vite` `MIT`
+**Stack**: `JavaScript` `CSS` `Chrome MV3` `Vite`
 
 ---
 
@@ -101,7 +101,7 @@ Go · Chrome Extensions (MV3) · Native Messaging · SAP (ABAP) · AWS IAM / Sig
 
 ### [react-dropdown-multilevel](https://github.com/emaxlele/react-dropdown-multilevel)
 
-> Accessible multi-level dropdown menu component for React
+> Accessible multi-level dropdown menu component for React · [npm](https://www.npmjs.com/package/react-dropdown-multilevel)
 
 -   Arbitrary nesting depth, keyboard navigation, full focus management
 -   Zero external dependencies
