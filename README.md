@@ -4,11 +4,11 @@
 
 **AI Engineer & Full-Stack Developer**
 
-_Building enterprise GenAI platforms from the ground up_
+_Building enterprise GenAI platforms and self-hosted tooling from the ground up_
 
+[![Website](https://img.shields.io/badge/Website-emaxlele.com-0066cc?style=flat&logo=googlechrome&logoColor=white)](https://emaxlele.com)
 [![GitHub](https://img.shields.io/badge/GitHub-emaxlele-181717?style=flat&logo=github)](https://github.com/emaxlele)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0002--4310--8014-A6CE39?style=flat&logo=orcid&logoColor=white)](https://orcid.org/0009-0002-4310-8014)
-[![Location](<https://img.shields.io/badge/Location-Pace_del_Mela_(ME)%2C_Sicily-blue?style=flat&logo=googlemaps&logoColor=white>)](https://github.com/emaxlele)
 
 </div>
 
@@ -16,11 +16,13 @@ _Building enterprise GenAI platforms from the ground up_
 
 ## About Me
 
-I'm a **Packaged App Development Analyst** at Accenture (ATC SAP Italy), specialized in designing and shipping enterprise-grade GenAI platforms end-to-end — from SDK architecture to cloud deployment.
+Packaged App Development Analyst at Accenture (ATC SAP Italy), specialized in designing and shipping enterprise-grade GenAI platforms end-to-end — from SDK architecture to cloud deployment.
 
-I built an **enterprise multi-agent AI platform** serving 36+ active users in production. The platform spans a custom React SDK (`web-chat-core`), a full PWA frontend, and a multi-agent orchestration layer on Microsoft Copilot Studio, all architected and delivered from scratch.
+Built an **enterprise multi-agent AI platform** serving 36+ active users in production, spanning a custom React SDK (`web-chat-core`), a full PWA frontend, and a multi-agent orchestration layer on Microsoft Copilot Studio — all architected and delivered from scratch.
 
 > From intern to de-facto Technical Lead in **16 months**.
+
+More on my background and projects: **[emaxlele.com](https://emaxlele.com)**
 
 ---
 
@@ -67,45 +69,7 @@ Go · Chrome Extensions (MV3) · Native Messaging · SAP (ABAP) · AWS IAM / Sig
 
 ---
 
-## Public Projects
-
-### [PocketBase-VPS-Desktop](https://github.com/emaxlele/PocketBase-VPS-Desktop)
-
-> Desktop app to visually manage a VPS running PocketBase — no terminal needed
-
--   GUI for atomic frontend deployments, site management, and backup
--   Wraps [PocketBase-VPS-Toolkit](https://github.com/emaxlele/PocketBase-VPS-Toolkit) via native SSH (no subprocess)
--   Streaming SSH log output, SFTP upload, Cloudflare cache purge
--   Config persisted in `%APPDATA%/PocketBase-VPS-Desktop/config.json`
-
-**Stack**: `Go` `React 19` `TypeScript` `Wails v2` `Tailwind CSS v4` `MIT`
-
----
-
-### [PocketBase-VPS-Toolkit](https://github.com/emaxlele/PocketBase-VPS-Toolkit)
-
-> Opinionated Caddy + PocketBase + SPA stack for Linux VPS — idempotent Go scripts, systemd-native
-
--   Atomic frontend deploys with symlink switching and versioned releases
--   `sitectl`, `deploy-frontend`, `backupctl` as composable CLI commands
--   HTTPS via Caddy with automatic TLS
-
-**Stack**: `Go` `Caddy` `PocketBase` `systemd` `MIT`
-
----
-
-### [Edge-Bridge](https://github.com/emaxlele/Edge-Bridge)
-
-> Portable Microsoft Edge launcher with embedded extensions and local MCP/native messaging bridge
-
--   Isolated Edge profile with auto-loaded extensions
--   Go-based native messaging bridge (`bridge.exe`)
--   Portable build: single `scripts\build.bat` produces full artifact tree
--   App mode + browser mode, MCP integration
-
-**Stack**: `Go` `Batchfile` `MIT`
-
----
+## Projects
 
 ### [M365-Copilot-Extension](https://github.com/emaxlele/M365-Copilot-Extension)
 
@@ -122,11 +86,74 @@ Go · Chrome Extensions (MV3) · Native Messaging · SAP (ABAP) · AWS IAM / Sig
 
 ---
 
+### [Edge-Bridge](https://github.com/emaxlele/Edge-Bridge)
+
+> Portable Microsoft Edge launcher with embedded extensions and local MCP/native messaging bridge
+
+-   Isolated Edge profile with auto-loaded extensions
+-   Go-based native messaging bridge (`bridge.exe`)
+-   Portable build: single `scripts\build.bat` produces full artifact tree
+-   App mode + browser mode, MCP integration
+
+**Stack**: `Go` `Batchfile` `MIT`
+
+---
+
+### [react-dropdown-multilevel](https://github.com/emaxlele/react-dropdown-multilevel)
+
+> Accessible multi-level dropdown menu component for React
+
+-   Arbitrary nesting depth, keyboard navigation, full focus management
+-   Zero external dependencies
+
+**Stack**: `React` `TypeScript` `MIT`
+
+---
+
 ### [Stampa3DUtility](https://github.com/emaxlele/Stampa3DUtility)
 
 > Web utility for 3D printing calculations
 
 **Stack**: `HTML`
+
+---
+
+### PocketBase VPS Desktop
+
+> Desktop app (Go, Wails, React 19) to visually manage a Linux VPS running PocketBase — no terminal needed
+
+-   GUI for atomic frontend deployments, site management, backup and rollback
+-   SSH/SFTP-native: file manager, PTY terminal, system monitor, systemd services, process manager, cron editor, firewall
+-   Config persisted in `%APPDATA%/PocketBase-VPS-Desktop/config.json`
+
+**Stack**: `Go` `Wails` `React 19` `TypeScript` `Tailwind CSS v4`
+
+![PocketBase VPS Desktop — Home](https://emaxlele.com/screenshots/vps-desktop/home.png)
+
+---
+
+### PocketBase VPS Toolkit
+
+> CLI multi-call (Go) for Caddy + PocketBase + SPA stack on Linux VPS — idempotent, systemd-native
+
+-   Atomic frontend deploys with symlink switching and versioned releases
+-   `sitectl`, `deploy-frontend`, `backupctl` as composable CLI commands
+-   HTTPS via Caddy with automatic TLS and optional Cloudflare mTLS
+
+**Stack**: `Go` `Caddy` `PocketBase` `systemd`
+
+---
+
+### PocketBase Toolkit
+
+> Desktop app (Go, Wails, React 19) for importing and managing data in PocketBase instances
+
+-   Field mapping, self/cross/manual relations, media pipeline
+-   Guided step-by-step flow; supports creating collections from scratch without JSON
+
+**Stack**: `Go` `Wails` `React 19` `TypeScript` `PocketBase`
+
+![PocketBase Toolkit — Home](https://emaxlele.com/screenshots/pocketbase-toolkit/home.png)
 
 ---
 
@@ -153,16 +180,6 @@ Go · Chrome Extensions (MV3) · Native Messaging · SAP (ABAP) · AWS IAM / Sig
 | Enterprise projects shipped      | **5+**                            |
 | AI use cases shipped             | **20+** across 4 categories       |
 | SDK dependencies managed         | **40+**                           |
-
----
-
-## Currently Exploring
-
--   🤖 Advanced multi-agent architectures (supervisor → orchestrator → worker)
--   🔌 MCP (Model Context Protocol) integrations
--   🦫 Go for native tooling and bridges
--   🧩 Chrome Extensions MV3 for AI-augmented workflows
--   ☁️ Azure AI Platform (AI Search, Azure ML, advanced integrations)
 
 ---
 
